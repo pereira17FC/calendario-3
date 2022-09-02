@@ -1,0 +1,56 @@
+h1 {
+    display: grid;
+    place-items: center;
+    margin-top: 15rem;
+}
+body {
+    place-items: center;
+
+}
+table {
+    display: grid;
+    place-items: center;
+    
+}
+
+thead{
+
+}
+td{
+    width: 100px;
+}
+th{
+    width: 100px;
+}
+.blue{
+    background-color: rgb(186, 190, 190);
+}
+
+.white{
+    background-color: rgb(247, 245, 245);
+}
+
+#red {
+    color: red;
+}
+
+#d1:hover {
+    color: white;
+  text-shadow: 0 0 10px rgb(105, 0, 0), 0 0 20px rgb(105, 0, 0),
+    0 0 30px rgb(105, 0, 0), 0 0 40px rgb(202, 2, 2), 0 0 50px rgb(255, 0, 0);
+    transition: 2s;
+}
+#d7 {
+    color: green;
+}
+#d2:hover {
+    color: blueviolet;
+    transition: 2s;
+}
+
+#d7:hover{
+    color: white;
+    text-shadow: 0 0 10px rgb(8, 255, 28), 0 0 20px rgb(21, 255, 0),
+      0 0 30px rgb(81, 255, 0), 0 0 40px rgb(0, 255, 21), 0 0 50px rgb(2, 255, 116);
+}
+
